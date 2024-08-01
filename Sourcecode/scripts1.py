@@ -11,7 +11,7 @@ parameter2 = str(sys.argv[6])
 
 print( "the toke value is")
 def trigger_workflow(workflowname,parameter1,parameter2):
-
+print( "the toke value is")
       headers = {
         "Accept": "application/vnd.github.v3+json",
         "Authorization": f"token {TOKEN}",
